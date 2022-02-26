@@ -1,4 +1,4 @@
-import java.io.*;
+import java.util.*;
 class RomanNumber
 {
     int n,th,nh,fh,frh,hun,nty,fif,frty,tn,nin,fiv,fr,one;
@@ -69,20 +69,19 @@ class RomanNumber
         System.out.println("Roman Number: "+str);
     }
 
-    public static void main(String arg[])throws IOException
+    public static void main(String args[])
     {
         int ch;
-        InputStreamReader reader=new InputStreamReader(System.in);
-        BufferedReader input=new BufferedReader(reader);
+        Scanner sc = new Scanner(System.in);
         while(true)
         {
             System.out.print("\nEnter a number: ");
-            int a=Integer.parseInt(input.readLine());
+            int a=sc.nextInt();
             RomanNumber obj=new RomanNumber(a);
             obj.count(a);
             obj.convert();
             System.out.print("\n1. Continue\n2. Exit\nEnter your choice: ");
-            ch = Integer.parseInt(input.readLine());
+            ch = sc.nextInt();
             switch(ch)
             {
                 case 1: continue;
