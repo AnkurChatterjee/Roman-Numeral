@@ -10,7 +10,7 @@ Write a file to take a number from the user and output the number in roman numer
 50 - L,
 100 - C,
 500 - D,
-1000 - M,
+1000 - M
 
 Using the basic numerals, convert the number given by user.
 
