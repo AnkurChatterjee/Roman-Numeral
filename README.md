@@ -3,13 +3,13 @@ Program to output a given number in roman numerals
 
 ### Problem statement
 Write a file to take a number from the user and output the number in roman numerals. The basic roman numerals are shown below-
-1. 1 - I
-2. 5 - V
-3. 10 - X
-4. 50 - L
-5. 100 - C
-6. 500 - D
-7. 1000 - M
+1 - I
+5 - V
+10 - X
+50 - L
+100 - C
+500 - D
+1000 - M
 
 Using the basic numerals, convert the number given by user.
 
