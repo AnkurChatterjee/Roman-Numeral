@@ -1,0 +1,35 @@
+
+Enter a number: 7
+Roman Number: VII
+
+1. Continue
+2. Exit
+Enter your choice: 1
+
+Enter a number: 73
+Roman Number: LXXIII
+
+1. Continue
+2. Exit
+Enter your choice: 1
+
+Enter a number: 267
+Roman Number: CCLXVII
+
+1. Continue
+2. Exit
+Enter your choice: 1
+
+Enter a number: 502
+Roman Number: DII
+
+1. Continue
+2. Exit
+Enter your choice: 1
+
+Enter a number: 1047
+Roman Number: MXLVII
+
+1. Continue
+2. Exit
+Enter your choice: 2
